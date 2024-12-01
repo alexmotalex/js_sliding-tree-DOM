@@ -1,0 +1,2 @@
+var e=document.querySelector(".tree");if(!e)throw Error("List not defined");var r=!0,t=!1,n=void 0;try{for(var a,o=e.querySelectorAll("li")[Symbol.iterator]();!(r=(a=o.next()).done);r=!0){var i=a.value,l=document.createElement("span"),d=i.firstChild;l.append(d),i.prepend(l)}}catch(e){t=!0,n=e}finally{try{r||null==o.return||o.return()}finally{if(t)throw n}}e.onclick=function(e){if("SPAN"!==e.target.tagName)return!1;e.stopPropagation();var r=e.target.parentNode.querySelector("ul");if(!r)return!1;r.hidden=!r.hidden};
+//# sourceMappingURL=index.4b576faf.js.map
